@@ -1,6 +1,10 @@
 # Bacteria-Biotope-at-BioNLP-OST-2019
 The Bacteria Biotope (BB) Task is part of the BioNLP Open Shared Tasks 
 
+## Install required libraries
+```
+pip install -r requirements.txt
+```
 ## Dataset Description
 
 The representation scheme of the BB task contains four entity types:
