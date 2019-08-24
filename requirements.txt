@@ -1,0 +1,7 @@
+Jupyter
+pandas
+numpy
+tqdm==4.25.0
+nltk
+gensim
+scikit-learn
