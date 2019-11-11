@@ -8,15 +8,19 @@ pip install -r requirements.txt
 ## Dataset Description
 
 The representation scheme of the BB task contains four entity types:
+
 1.  Microorganisms
 2.  Habitats
 3.  Geographical places
 4.  Phenotypes
+
 Relation types:
+
 1.  Lives_in relations which link a Microorganism entity to a location (either a Habitat or a Geographical entity)
 2.  Exhibits relations which link Microorganism entity to a Phenotype entity.
 ![](images/annotation.png)
 The sub task here is to find the relationship between the entities 
+
 **Entity and relation extraction subtask (BB-rel)**
 BB-rel: Extraction of Lives_In relations between Microorganism, Habitat and Geographical entities, and of Exhibits relations between Microorganism and Phenotype entities.
 The Dataset of the BB-rel contans the following
