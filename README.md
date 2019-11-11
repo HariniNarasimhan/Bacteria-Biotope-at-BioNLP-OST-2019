@@ -15,9 +15,8 @@ The representation scheme of the BB task contains four entity types:
 
 Relation types:
 
-1. Lives_in relations which link a Microorganism entity to a location (either a Habitat or a Geographical entity)
-2. Exhibits relations which link Microorganism entity to a Phenotype entity.
-
+1.Lives_in relations which link a Microorganism entity to a location (either a Habitat or a Geographical entity)
+2.Exhibits relations which link Microorganism entity to a Phenotype entity.
 ![](images/annotation.png)
 
 The sub task here is to find the relationship between the entities 
@@ -39,23 +38,21 @@ R2	Lives_In Microorganism:T2 Location:T3
 R3	Lives_In Microorganism:T2 Location:T4
 ```
 
-### Objective:
+### Objective
 Given the a1 file extract it's corresponding a2 file that extracts the relationship between entities.
 
-### Data preprocessing:
-1. The data preprocessing includes the creation of a csv tabel for the data as follows
-
+### Data preprocessing
+1.The data preprocessing includes the creation of a csv tabel for the data as follows
 ![](images/preprossed.png)
+2.The stopwords were removed
+3.All the words were made in lower cases
+4.The numbers were removed
 
-2. The stopwords were removed
-3. All the words were made in lower cases
-4. The numbers were removed
-
-### Sentence to vectors:
+### Sentence to vectors
 The pre-trained Fast-text model of english wiki has been used to convert all the sentences to vectors. 
 Then various machine learning algorithms such as Random forest Classifier, SVM, LGBoost and XGBoost has been deployed to extract relationships.
 
-### Results on validation data:
+### Results on validation data
 | Algorithm  | Accuracy |
 | ------------- | ------------- |
 | KNN | 0.90625  |
