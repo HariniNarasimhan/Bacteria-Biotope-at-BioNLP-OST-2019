@@ -43,17 +43,19 @@ R3	Lives_In Microorganism:T2 Location:T4
 Given the a1 file extract it's corresponding a2 file that extracts the relationship between entities.
 
 ### Data preprocessing
-1. The data preprocessing includes the creation of a csv tabel for the data as follows
+1.  The data preprocessing includes the creation of a csv tabel for the data as follows
 ![](images/preprossed.png)
-2. The stopwords were removed
-3. All the words were made in lower cases
-4. The numbers were removed
+2.  The stopwords were removed
+3.  All the words were made in lower cases
+4.  The numbers were removed
 
 ### Sentence to vectors
+
 The pre-trained Fast-text model of english wiki has been used to convert all the sentences to vectors. 
 Then various machine learning algorithms such as Random forest Classifier, SVM, LGBoost and XGBoost has been deployed to extract relationships.
 
 ### Results on validation data
+
 | Algorithm  | Accuracy |
 | ------------- | ------------- |
 | KNN | 0.90625  |
