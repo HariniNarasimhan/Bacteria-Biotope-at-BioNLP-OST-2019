@@ -66,5 +66,3 @@ Then various machine learning algorithms such as Random forest Classifier, SVM, 
 
 ### The final results on test data are published on the website under the team name of Amrita_CEN
 https://sites.google.com/view/bb-2019/evaluation-results?authuser=0
-
-
