@@ -23,7 +23,7 @@ The sub task here is to find the relationship between the entities
 
 **Entity and relation extraction subtask (BB-rel)**
 BB-rel: Extraction of Lives_In relations between Microorganism, Habitat and Geographical entities, and of Exhibits relations between Microorganism and Phenotype entities.
-The Dataset of the BB-rel contans the following
+The Dataset of the BB-rel contans the following  
 **a1 files:**
 ```
 T1	Title 0 104	[The infections from "Serratia" in the Hospital S. Camillo De Lellis of Roma (Italy) (author's transl)].
@@ -65,4 +65,4 @@ Then various machine learning algorithms such as Random forest Classifier, SVM, 
 | SVM |0.95065789  |
 
 ### The final results on test data are published on the website under the team name of Amrita_CEN
-https://sites.google.com/view/bb-2019/evaluation-results?authuser=0
+<https://sites.google.com/view/bb-2019/evaluation-results?authuser=0>
